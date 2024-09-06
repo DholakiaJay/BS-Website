@@ -19,9 +19,25 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <style>
+
+      .alert
+      {
+        opacity: 0;
+
+      }
+.navbar:hover .alert
+{
+transition: all 1200ms;
+  opacity: 1;
+}
+
+
+
+    </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary opacity-100 pe-none">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary opacity-100">
       <div class="container-fluid">
         <a
           class="navbar-brand rounded-5 p-3 fw-small fs-6 d-flex flex-column justify-content-center border border-1 shadow"
@@ -75,6 +91,16 @@
                 <li><hr class="dropdown-divider" /></li>
                 <li><a class="dropdown-item" href="#">log out</a></li>
               </ul>
+            </li>
+
+            <li>
+              <!-- <input type="checkbox" id="login"> -->
+              <div class="alert alert-danger d-flex align-items-center gap-1 w-100"  role="alert">
+                <span class="fs-3"><i class="fa-solid fa-triangle-exclamation"></i></span>
+                <div class="fw-normal fs-6">
+                  Enter Email and Password 
+                </div>
+              </div>
             </li>
             <!-- <li class="nav-item">
                 <a class="nav-link disabled" aria-disabled="true">Disabled</a>

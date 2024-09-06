@@ -26,6 +26,40 @@
         color:white;
       }
     </style> -->
+
+    <style>
+      .card:hover
+      {
+        transition: all 450ms;
+        transform: scale(1);
+      }
+      
+      .card:not(:hover)
+      {
+        transition: all 450mm;
+        transform: scale(0.8);
+      }
+      .card:hover .icon
+      {
+        transition: all 450ms;
+        color: green;
+
+      }
+      .card:hover .c-title
+      {
+        transition: all 450ms;
+        color: orangered;
+
+      }
+      .card:hover .card-text
+      {
+        transition: all 450ms;
+        color:black;
+        text-shadow: 0px 1px rgba(128, 128, 128, 0.519);
+        
+      }
+
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -122,12 +156,12 @@
         <div class="col-3">
           <div class="card m-3 shadow h-100" style="width: 18rem">
             <span
-              class="d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
+              class="icon d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
             >
               <i class="fa-solid fa-user-plus"></i>
             </span>
             <div class="card-body">
-              <h3 class="text-center fw-bold">Free Account</h3>
+              <h3 class="c-title text-center fw-bold">Free Account</h3>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -138,12 +172,12 @@
         <div class="col-3">
           <div class="card mt-3 shadow h-100" style="width: 18rem">
             <span
-              class="d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
+              class="icon d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
             >
               <i class="fa-solid fa-truck-moving"></i>
             </span>
             <div class="card-body">
-              <h3 class="text-center fw-bold">Good Transportation</h3>
+              <h3 class="c-title text-center  fw-bold">Good Transportation</h3>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -154,12 +188,12 @@
         <div class="col-3">
           <div class="card mt-3 shadow h-100" style="width: 18rem">
             <span
-              class="d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
+              class="icon d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
             >
               <i class="fa-solid fa-truck-fast"></i>
             </span>
             <div class="card-body">
-              <h3 class="text-center fw-bold">Fast Delivery</h3>
+              <h3 class="c-title  fw-bold">Fast Delivery</h3>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -170,12 +204,12 @@
         <div class="col-3">
           <div class="card mt-3 shadow h-100" style="width: 18rem">
             <span
-              class="d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
+              class="icon d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
             >
               <i class="fa-solid fa-magnifying-glass-location"></i>
             </span>
             <div class="card-body">
-              <h3 class="text-center fw-bold">Track Your Material</h3>
+              <h3 class="c-title text-center fw-bold">Track Your Material</h3>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -188,12 +222,12 @@
         <div class="col-3">
           <div class="card m-3 shadow h-100" style="width: 18rem">
             <span
-              class="d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
+              class="icon d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
             >
               <i class="fa-solid fa-comment-sms"></i>
             </span>
             <div class="card-body">
-              <h3 class="text-center fw-bold">Get immediately details</h3>
+              <h3 class="c-title text-center fw-bold">Get immediately details</h3>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -204,12 +238,12 @@
         <div class="col-3">
           <div class="card mt-3 shadow h-100" style="width: 18rem">
             <span
-              class="d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
+              class="icon d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
             >
               <i class="fa-solid fa-magnifying-glass"></i>
             </span>
             <div class="card-body">
-              <h3 class="text-center fw-bold">Find Transport and Cruzer</h3>
+              <h3 class="c-title text-center fw-bold">Find Transport and Cruzer</h3>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -220,12 +254,12 @@
         <div class="col-3">
           <div class="card mt-3 shadow h-100" style="width: 18rem">
             <span
-              class="d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
+              class="icon d-flex justify-content-center align-items-center fs-1 fw-bold mt-3 mb-3"
             >
               <i class="fa-regular fa-comments"></i>
             </span>
             <div class="card-body">
-              <h3 class="text-center fw-bold">Communicate With Transport</h3>
+              <h3 class="c-title text-center fw-bold">Communicate With Transport</h3>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
